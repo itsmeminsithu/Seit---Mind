@@ -1,4 +1,4 @@
-# စိတ် - Mind · v0.8 — Organized Android & Web Screens
+# စိတ် - Mind · v0.8
 
 **Your space for peace, focus & better sleep.**
 
