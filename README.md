@@ -6,6 +6,19 @@ Developer: **Min SiThu** · https://minsithu.org
 
 **Status: UI Redesign / Beta Source. Not yet approved for public production release.**
 
+## Preview
+
+Live view (no Codespaces): https://itsmeminsithu.github.io/Seit---Mind/
+
+![Meet the Developer](docs/previews/01-meet-developer.png)
+![Home — Find your calm](docs/previews/02-home.png)
+![Profile and Explore](docs/previews/03-profile-explore.png)
+![Daily Wisdom](docs/previews/04-daily-wisdom.png)
+![Player — Deep Calm](docs/previews/05-player-deep-calm.png)
+![Guided Breathing](docs/previews/06-guided-breathing.png)
+![Share Card](docs/previews/07-share-card-sunset.png)
+![Share Card](docs/previews/08-share-card-forest.png)
+
 ## What changed
 Previous versions mixed user profile form, reminders, meditation library, player, rewards, and developer info on one long page. Version **0.8 separates these into task-focused screens** on both Android and Web:
 
