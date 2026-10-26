@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { calculateCompletion, localDateKey, previousLocalDateKey } from '../lib/rewards.mjs';
+const base = { stars: 0, streak: 0, lastCompleted: '', dailyStars: 0, dailyStarsDate: '' };
+const today = new Date(2026, 9, 26, 12, 0);
+test('reject early completion (79.9%)', () => assert.equal(calculateCompletion(base, 479.3, 10, today), null));
+test('allow exactly 80% and reward only listened minutes', () => {const r = calculateCompletion(base, 480, 10, today); assert.equal(r.session.earned, 8);assert.equal(r.next.streak,1)});
+test('same-day completions never advance streak twice', () => {const first=calculateCompletion(base, 600,10,today); const second=calculateCompletion(first.next,1200,20,today);assert.equal(second.next.streak,1);assert.equal(second.next.stars,30)});
+test('cap total daily stars at 60', () => {const p={...base,stars:59,dailyStars:59,dailyStarsDate:localDateKey(today)};const r=calculateCompletion(p,1800,30,today);assert.equal(r.session.earned,1);assert.equal(r.next.dailyStars,60)});
+test('consecutive day advances streak', () => {const p={...base,streak:5,lastCompleted:previousLocalDateKey(today)};assert.equal(calculateCompletion(p,600,10,today).next.streak,6)});
+test('missed day resets without penalty to accumulated stars', () => {const p={...base,stars:99,streak:9,lastCompleted:'2026-10-20'};const r=calculateCompletion(p,600,10,today);assert.equal(r.next.streak,1);assert.equal(r.next.stars,109)});
+test('malformed durations rejected', () => {assert.equal(calculateCompletion(base,100000,0,today),null);assert.equal(calculateCompletion(base,-1,10,today),null);assert.equal(calculateCompletion(base,NaN,10,today),null)});
+test('new local day refreshes daily cap', () => {const p={...base,dailyStars:60,dailyStarsDate:'2026-10-25'};assert.equal(calculateCompletion(p,1200,20,today).session.earned,20)});
+test('never reward longer than scheduled duration', () => {assert.equal(calculateCompletion(base,10000,10,today).session.earned,10)});
