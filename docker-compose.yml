@@ -1,0 +1,19 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: unless-stopped
+    expose:
+      - "8000"
+  web:
+    build:
+      context: .
+      dockerfile: web/Dockerfile
+    environment:
+      MIND_API_SERVER_URL: http://backend:8000
+    restart: unless-stopped
+    ports:
+      - "3100:3000"
+    depends_on:
+      - backend
