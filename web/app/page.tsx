@@ -75,7 +75,20 @@ export default function Home(){
  useEffect(()=>{profileRef.current=profile},[profile]);
  useEffect(()=>{try{const raw=localStorage.getItem(KEY);if(raw){const parsed=JSON.parse(raw);if(parsed&&typeof parsed==="object"&&!Array.isArray(parsed))setProfile({...DEFAULT,...parsed,stars:Math.max(0,Number(parsed.stars)||0),streak:Math.max(0,Number(parsed.streak)||0),dailyStars:Math.max(0,Math.min(60,Number(parsed.dailyStars)||0))})}}catch{}setReady(true)},[]);
  useEffect(()=>{if(ready){try{localStorage.setItem(KEY,JSON.stringify(profile))}catch{setStatus("Browser storage is full or unavailable. Your changes may not persist.")}}},[profile,ready]);
- useEffect(()=>{fetch(`${API}/api/sessions`).then(r=>{if(!r.ok)throw Error("Backend unavailable");return r.json()}).then(setSessions).catch(()=>setError("Start FastAPI backend on port 8000 to load meditation tracks."))},[]);
+ const FALLBACK_SESSIONS:Session[]=[
+{id:1,title:"Forest Ambience",category:"Nature",duration_minutes:12,description:"Soft woodland breeze and distant birdlike tones.",audio_url:"audio/forest.mp3",color:"#DCE8D5"},
+{id:2,title:"Deep Calm",category:"Mindfulness",duration_minutes:12,description:"Gentle warm sustained ambient tones.",audio_url:"audio/calm.mp3",color:"#E4E5D8"},
+{id:3,title:"Water Drops",category:"Nature",duration_minutes:12,description:"Soft water droplets and delicate ripples.",audio_url:"audio/drops.mp3",color:"#D5E9EC"},
+{id:4,title:"Soft Piano",category:"Focus",duration_minutes:12,description:"Original minimal piano-inspired melody.",audio_url:"audio/piano.mp3",color:"#E5E0EC"},
+{id:5,title:"Air Waves",category:"Focus",duration_minutes:12,description:"Soft flowing air and breath-like textures.",audio_url:"audio/air.mp3",color:"#D8E8E4"},
+{id:6,title:"Ocean Tides",category:"Sleep",duration_minutes:12,description:"Rolling wave-like ambience.",audio_url:"audio/tides.mp3",color:"#D6E4EE"},
+{id:7,title:"Meditation Bells",category:"Mindfulness",duration_minutes:12,description:"Soft synthesized meditation bells, no chanting.",audio_url:"audio/bell.mp3",color:"#ECE4D7"},
+{id:8,title:"Gentle Rain",category:"Sleep",duration_minutes:12,description:"Layered water and airy ambience.",audio_url:"audio/rain.mp3",color:"#DCE8D5"},
+{id:9,title:"Morning Dawn",category:"Mindfulness",duration_minutes:12,description:"Woodland and warm calm tones.",audio_url:"audio/dawn.mp3",color:"#E4E5D8"},
+{id:10,title:"Night Drift",category:"Sleep",duration_minutes:12,description:"Slow waves and deep gentle tones.",audio_url:"audio/night.mp3",color:"#D5E9EC"},
+{id:11,title:"Quiet Stream",category:"Nature",duration_minutes:12,description:"Soft rippling water and air.",audio_url:"audio/stream.mp3",color:"#E5E0EC"},
+{id:12,title:"Zen Garden",category:"Mindfulness",duration_minutes:12,description:"Minimal soft bells and air.",audio_url:"audio/zen.mp3",color:"#D8E8E4"}];
+useEffect(()=>{fetch(`${API}/api/sessions`).then(r=>{if(!r.ok)throw Error("Backend unavailable");return r.json()}).then(setSessions).catch(()=>{setSessions(FALLBACK_SESSIONS);setError("")})},[]);
  useEffect(()=>{if(!profile.notifications||typeof Notification==="undefined"||Notification.permission!=="granted")return;const check=()=>{const d=new Date(),day=dateKey(d),time=`${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`;if(time===profile.reminder&&alertDate.current!==day){alertDate.current=day;new Notification("စိတ် - Mind",{body:"Take a mindful moment today."})}};check();const id=setInterval(check,30000);return()=>clearInterval(id)},[profile.notifications,profile.reminder]);
  const patch=(changes:Partial<Profile>)=>setProfile(p=>({...p,...changes}));
  const reset=()=>{audio.current?.pause();if(audio.current)audio.current.volume=1;elapsed.current=0;lastTick.current=0;finished.current=false;setSeconds(0);setPlaying(false);setBreathing(false)};
