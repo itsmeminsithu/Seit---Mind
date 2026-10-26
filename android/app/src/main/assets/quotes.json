@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "category": "peace",
+    "en": "Peace begins when you make room for one quiet breath.",
+    "mm": "ငြိမ်းချမ်းမှုက အသက်ရှူသံ တစ်ချက်အတွက် နေရာပေးလိုက်ချိန်မှာ စတင်ပါတယ်။"
+  },
+  {
+    "id": 2,
+    "category": "peace",
+    "en": "You can be still even when the world keeps moving.",
+    "mm": "ကမ္ဘာကြီး လှုပ်ရှားနေချိန်မှာတောင် ကိုယ့်စိတ်ကို တည်ငြိမ်အောင် ထားနိုင်ပါတယ်။"
+  },
+  {
+    "id": 3,
+    "category": "peace",
+    "en": "A gentle pause can change the shape of your day.",
+    "mm": "ခဏတာ နားလိုက်ခြင်းက တစ်နေ့တာရဲ့ အရောင်ကို ပြောင်းလဲပေးနိုင်ပါတယ်။"
+  },
+  {
+    "id": 4,
+    "category": "peace",
+    "en": "Silence is a place you can return to within yourself.",
+    "mm": "တိတ်ဆိတ်မှုဆိုတာ ကိုယ့်အတွင်းစိတ်ထဲ ပြန်လာနိုင်တဲ့ နေရာတစ်ခုပါ။"
+  },
+  {
+    "id": 5,
+    "category": "peace",
+    "en": "Not every thought deserves a seat at your table.",
+    "mm": "အတွေးတိုင်းကို ကိုယ့်စိတ်ထဲ နေရာပေးဖို့ မလိုပါဘူး။"
+  },
+  {
+    "id": 6,
+    "category": "peace",
+    "en": "Let the moment be simple before you make it meaningful.",
+    "mm": "ဒီအခိုက်အတန့်ကို အဓိပ္ပာယ်မဖော်ခင် ရိုးရိုးလေး ခံစားကြည့်ပါ။"
+  },
+  {
+    "id": 7,
+    "category": "peace",
+    "en": "Your breath is a small bridge back to the present.",
+    "mm": "အသက်ရှူသံက လက်ရှိအချိန်ဆီ ပြန်ပို့ပေးတဲ့ တံတားငယ်လေးပါ။"
+  },
+  {
+    "id": 8,
+    "category": "peace",
+    "en": "Calm is a practice, not a perfect destination.",
+    "mm": "တည်ငြိမ်ခြင်းက ပြီးပြည့်စုံတဲ့ ပန်းတိုင်မဟုတ်ဘဲ နေ့စဉ်လေ့ကျင့်မှုပါ။"
+  },
+  {
+    "id": 9,
+    "category": "peace",
+    "en": "There is room for softness in a busy life.",
+    "mm": "အလုပ်များတဲ့ဘဝမှာလည်း နူးညံ့မှုအတွက် နေရာရှိပါတယ်။"
+  },
+  {
+    "id": 10,
+    "category": "peace",
+    "en": "A peaceful mind does not need to win every argument.",
+    "mm": "စိတ်အေးချမ်းသူဟာ ငြင်းခုံမှုတိုင်းမှာ အနိုင်ရဖို့ မလိုပါဘူး။"
+  },
+  {
+    "id": 11,
+    "category": "peace",
+    "en": "You are allowed to slow down without falling behind.",
+    "mm": "နောက်ကျကျန်ခဲ့မှာ မစိုးရိမ်ဘဲ ဖြည်းဖြည်းသွားခွင့်ရှိပါတယ်။"
+  },
+  {
+    "id": 12,
+    "category": "peace",
+    "en": "Let a quiet minute belong only to you.",
+    "mm": "တိတ်ဆိတ်တဲ့ တစ်မိနစ်ကို ကိုယ့်အတွက်ပဲ ပေးလိုက်ပါ။"
+  },
+  {
+    "id": 13,
+    "category": "peace",
+    "en": "The present asks only that you arrive.",
+    "mm": "လက်ရှိအခိုက်အတန့်က သင် ရောက်ရှိနေဖို့ပဲ တောင်းဆိုပါတယ်။"
+  },
+  {
+    "id": 14,
+    "category": "peace",
+    "en": "When you stop chasing calm, you may notice it nearby.",
+    "mm": "တည်ငြိမ်မှုကို လိုက်ရှာတာရပ်တဲ့အခါ အနီးမှာရှိတာကို တွေ့နိုင်ပါတယ်။"
+  },
+  {
+    "id": 15,
+    "category": "peace",
+    "en": "Breathe as though this moment is enough.",
+    "mm": "ဒီအခိုက်အတန့်လေးနဲ့ လုံလောက်နေသလို အသက်ရှူကြည့်ပါ။"
+  },
+  {
+    "id": 16,
+    "category": "peace",
+    "en": "The mind grows quieter when it is treated kindly.",
+    "mm": "စိတ်ကို ကြင်နာစွာ ဆက်ဆံတဲ့အခါ ပိုတိတ်ဆိတ်လာပါတယ်။"
+  },
+  {
+    "id": 17,
+    "category": "peace",
+    "en": "Peace can be small and still be real.",
+    "mm": "ငြိမ်းချမ်းမှုက သေးငယ်ပေမဲ့ တကယ်ရှိနိုင်ပါတယ်။"
+  },
+  {
+    "id": 18,
+    "category": "peace",
+    "en": "There is wisdom in choosing not to rush.",
+    "mm": "အလျင်မလိုဖို့ ရွေးချယ်ခြင်းမှာ ဉာဏ်ပညာရှိပါတယ်။"
+  },
+  {
+    "id": 19,
+    "category": "peace",
+    "en": "A calm heart can hold an unfinished story.",
+    "mm": "မပြီးဆုံးသေးတဲ့ ဘဝဇာတ်လမ်းကိုလည်း တည်ငြိမ်တဲ့စိတ်နဲ့ လက်ခံနိုင်ပါတယ်။"
+  },
+  {
+    "id": 20,
+    "category": "peace",
+    "en": "You do not need a perfect day to find a peaceful minute.",
+    "mm": "ငြိမ်းချမ်းတဲ့ တစ်မိနစ်ရဖို့ ပြီးပြည့်စုံတဲ့နေ့ မလိုပါဘူး။"
+  },
+  {
+    "id": 21,
+    "category": "strength",
+    "en": "You cannot quiet every storm, but you can steady your breath.",
+    "mm": "မုန်တိုင်းတိုင်းကို မငြိမ်သက်စေနိုင်ပေမဲ့ ကိုယ့်အသက်ရှူသံကို တည်ငြိမ်စေနိုင်ပါတယ်။"
+  },
+  {
+    "id": 22,
+    "category": "strength",
+    "en": "Courage can look like resting before trying again.",
+    "mm": "သတ္တိဆိုတာ ပြန်ကြိုးစားဖို့ မတိုင်ခင် အနားယူခြင်းလည်း ဖြစ်နိုင်ပါတယ်။"
+  },
+  {
+    "id": 23,
+    "category": "strength",
+    "en": "A difficult feeling is not the whole of who you are.",
+    "mm": "ခက်ခဲတဲ့ ခံစားချက်တစ်ခုက သင့်ဘဝတစ်ခုလုံး မဟုတ်ပါဘူး။"
+  },
+  {
+    "id": 24,
+    "category": "strength",
+    "en": "You can begin again without erasing yesterday.",
+    "mm": "မနေ့ကအကြောင်းတွေကို မဖျောက်ပစ်ဘဲ ပြန်စတင်နိုင်ပါတယ်။"
+  },
+  {
+    "id": 25,
+    "category": "strength",
+    "en": "Be patient with the person you are becoming.",
+    "mm": "သင် ဖြစ်လာနေတဲ့လူကို စိတ်ရှည်ပေးပါ။"
+  },
+  {
+    "id": 26,
+    "category": "strength",
+    "en": "Strength also knows when to be gentle.",
+    "mm": "ခွန်အားရှိခြင်းဟာ ဘယ်အချိန် နူးညံ့ရမလဲ သိခြင်းလည်း ပါဝင်ပါတယ်။"
+  },
+  {
+    "id": 27,
+    "category": "strength",
+    "en": "You have survived days you once thought impossible.",
+    "mm": "မဖြတ်ကျော်နိုင်ဘူးထင်ခဲ့တဲ့ နေ့တွေကိုလည်း သင် ကျော်ဖြတ်ခဲ့ပြီးပါပြီ။"
+  },
+  {
+    "id": 28,
+    "category": "strength",
+    "en": "One honest breath can be the start of bravery.",
+    "mm": "ရိုးသားတဲ့ အသက်ရှူသံတစ်ချက်က ရဲရင့်မှုရဲ့အစ ဖြစ်နိုင်ပါတယ်။"
+  },
+  {
+    "id": 29,
+    "category": "strength",
+    "en": "Let your pace be measured by care, not comparison.",
+    "mm": "ကိုယ့်လျှောက်လှမ်းမှုကို နှိုင်းယှဉ်မှုနဲ့မဟုတ်ဘဲ ဂရုစိုက်မှုနဲ့ တိုင်းတာပါ။"
+  },
+  {
+    "id": 30,
+    "category": "strength",
+    "en": "It is brave to put down what is too heavy today.",
+    "mm": "ဒီနေ့ အလွန်လေးလံနေတဲ့အရာကို ခဏချထားခြင်းကလည်း သတ္တိပါပဲ။"
+  },
+  {
+    "id": 31,
+    "category": "strength",
+    "en": "Your worth does not change with your energy.",
+    "mm": "သင့်တန်ဖိုးက သင့်မှာ အားရှိမရှိနဲ့ မပြောင်းလဲပါဘူး။"
+  },
+  {
+    "id": 32,
+    "category": "strength",
+    "en": "A quiet comeback is still a comeback.",
+    "mm": "တိတ်တဆိတ် ပြန်ထလာခြင်းကလည်း ပြန်ထလာခြင်းပါပဲ။"
+  },
+  {
+    "id": 33,
+    "category": "strength",
+    "en": "You may feel uncertain and keep moving gently.",
+    "mm": "မသေချာမှုရှိနေသော်လည်း ဖြည်းဖြည်းချင်း ဆက်လျှောက်နိုင်ပါတယ်။"
+  },
+  {
+    "id": 34,
+    "category": "strength",
+    "en": "Hope does not need to be loud to remain alive.",
+    "mm": "မျှော်လင့်ချက်က ဆက်ရှိနေဖို့ ကျယ်လောင်နေစရာ မလိုပါဘူး။"
+  },
+  {
+    "id": 35,
+    "category": "strength",
+    "en": "A kind boundary can protect a peaceful mind.",
+    "mm": "ကြင်နာတဲ့ အကန့်အသတ်က စိတ်ငြိမ်းချမ်းမှုကို ကာကွယ်နိုင်ပါတယ်။"
+  },
+  {
+    "id": 36,
+    "category": "strength",
+    "en": "Some days, showing up is the victory.",
+    "mm": "တချို့နေ့တွေမှာ ကြိုးစားပြီး ရောက်လာနိုင်တာကိုက အောင်မြင်မှုပါပဲ။"
+  },
+  {
+    "id": 37,
+    "category": "strength",
+    "en": "You can carry lessons without carrying every burden.",
+    "mm": "ဝန်ထုပ်ဝန်ပိုးအားလုံး မထမ်းဘဲ သင်ခန်းစာတွေကို ယူဆောင်နိုင်ပါတယ်။"
+  },
+  {
+    "id": 38,
+    "category": "strength",
+    "en": "Trust the quiet work of healing and growing.",
+    "mm": "ပြန်လည်ကောင်းမွန်လာခြင်းနဲ့ ကြီးထွားလာခြင်းရဲ့ တိတ်ဆိတ်တဲ့လုပ်ငန်းစဉ်ကို ယုံကြည်ပါ။"
+  },
+  {
+    "id": 39,
+    "category": "strength",
+    "en": "It takes strength to admit you need a pause.",
+    "mm": "ခဏနားဖို့ လိုတယ်လို့ ဝန်ခံနိုင်ခြင်းမှာလည်း ခွန်အားလိုပါတယ်။"
+  },
+  {
+    "id": 40,
+    "category": "strength",
+    "en": "Let tomorrow meet a rested version of you.",
+    "mm": "မနက်ဖြန်ကို အနားယူထားတဲ့ သင်နဲ့ တွေ့ဆုံခွင့်ပေးပါ။"
+  },
+  {
+    "id": 41,
+    "category": "growth",
+    "en": "Progress is often made in moments too small to notice.",
+    "mm": "တိုးတက်မှုဟာ သတိမထားမိလောက်တဲ့ အခိုက်အတန့်လေးတွေမှာ ဖြစ်ပေါ်တတ်ပါတယ်။"
+  },
+  {
+    "id": 42,
+    "category": "growth",
+    "en": "A better habit begins with one possible step.",
+    "mm": "အလေ့အကျင့်ကောင်းတစ်ခုက လုပ်နိုင်တဲ့ ခြေလှမ်းတစ်လှမ်းနဲ့ စတင်ပါတယ်။"
+  },
+  {
+    "id": 43,
+    "category": "growth",
+    "en": "The person you become is shaped by what you repeat gently.",
+    "mm": "သင် ဖြစ်လာမယ့်လူကို နူးညံ့စွာ ထပ်ခါတလဲလဲ လုပ်ဆောင်မှုတွေက ပုံဖော်ပေးပါတယ်။"
+  },
+  {
+    "id": 44,
+    "category": "growth",
+    "en": "The smallest beginning still counts as a beginning.",
+    "mm": "အသေးငယ်ဆုံး စတင်ခြင်းကလည်း စတင်ခြင်းပါပဲ။"
+  },
+  {
+    "id": 45,
+    "category": "growth",
+    "en": "Give your attention to what you want to grow.",
+    "mm": "ကြီးထွားစေချင်တဲ့အရာအပေါ် အာရုံစိုက်ပေးပါ။"
+  },
+  {
+    "id": 46,
+    "category": "growth",
+    "en": "Be proud of the minutes you kept for yourself.",
+    "mm": "ကိုယ့်အတွက် ချန်ထားနိုင်ခဲ့တဲ့ မိနစ်တွေကို ဂုဏ်ယူပါ။"
+  },
+  {
+    "id": 47,
+    "category": "growth",
+    "en": "Learning to pause is also learning to move wisely.",
+    "mm": "ခဏနားတတ်ခြင်းဟာ ပညာရှိစွာ ဆက်လျှောက်တတ်ခြင်းလည်း ဖြစ်ပါတယ်။"
+  },
+  {
+    "id": 48,
+    "category": "growth",
+    "en": "Consistency can be soft without becoming weak.",
+    "mm": "ပုံမှန်လုပ်ခြင်းက နူးညံ့နိုင်ပြီး အားနည်းသွားတာမဟုတ်ပါဘူး။"
+  },
+  {
+    "id": 49,
+    "category": "growth",
+    "en": "You do not have to bloom at someone else's pace.",
+    "mm": "သူများအရှိန်အဟုန်အတိုင်း ပွင့်လန်းဖို့ မလိုပါဘူး။"
+  },
+  {
+    "id": 50,
+    "category": "growth",
+    "en": "Choose a direction, then honor each little step.",
+    "mm": "ဦးတည်ချက်တစ်ခု ရွေးပြီး ခြေလှမ်းငယ်တိုင်းကို တန်ဖိုးထားပါ။"
+  },
+  {
+    "id": 51,
+    "category": "growth",
+    "en": "Quiet effort creates roots before it shows flowers.",
+    "mm": "တိတ်တဆိတ်ကြိုးစားမှုက ပန်းမပွင့်မီ အမြစ်ကို အရင်ခိုင်စေပါတယ်။"
+  },
+  {
+    "id": 52,
+    "category": "growth",
+    "en": "Today is a place to practice, not a test to pass.",
+    "mm": "ဒီနေ့ဟာ အောင်ရမယ့် စာမေးပွဲမဟုတ်ဘဲ လေ့ကျင့်ခွင့်ရတဲ့ နေရာတစ်ခုပါ။"
+  },
+  {
+    "id": 53,
+    "category": "growth",
+    "en": "Give yourself credit for returning to what matters.",
+    "mm": "အရေးကြီးတဲ့အရာဆီ ပြန်လာနိုင်ခဲ့တာအတွက် ကိုယ့်ကိုယ်ကို အသိအမှတ်ပြုပါ။"
+  },
+  {
+    "id": 54,
+    "category": "growth",
+    "en": "Your journey can be meaningful without being straight.",
+    "mm": "သင့်ခရီးလမ်းဟာ ဖြောင့်တန်းမနေသော်လည်း အဓိပ္ပာယ်ရှိနိုင်ပါတယ်။"
+  },
+  {
+    "id": 55,
+    "category": "growth",
+    "en": "Small daily care is a form of long-term hope.",
+    "mm": "နေ့စဉ် ဂရုစိုက်မှုငယ်လေးတွေက ရေရှည်မျှော်လင့်ချက်ရဲ့ ပုံစံတစ်ခုပါ။"
+  },
+  {
+    "id": 56,
+    "category": "growth",
+    "en": "The way forward often begins by noticing where you are.",
+    "mm": "ရှေ့ဆက်မယ့်လမ်းဟာ ကိုယ်ဘယ်နေရာရောက်နေတယ်ဆိုတာ သတိထားခြင်းက စတင်တတ်ပါတယ်။"
+  },
+  {
+    "id": 57,
+    "category": "growth",
+    "en": "A steady rhythm matters more than a hurried finish.",
+    "mm": "အလျင်အမြန်ပြီးဆုံးဖို့ထက် တည်ငြိမ်တဲ့ စည်းချက်က ပိုအရေးကြီးပါတယ်။"
+  },
+  {
+    "id": 58,
+    "category": "growth",
+    "en": "Every mindful return is a fresh beginning.",
+    "mm": "သတိနဲ့ ပြန်လာတဲ့အကြိမ်တိုင်းဟာ စတင်မှုအသစ်တစ်ခုပါ။"
+  },
+  {
+    "id": 59,
+    "category": "growth",
+    "en": "Your attention is a seed; plant it carefully.",
+    "mm": "သင့်အာရုံစိုက်မှုက မျိုးစေ့တစ်စေ့လိုပါပဲ။ ဂရုတစိုက် စိုက်ပျိုးပါ။"
+  },
+  {
+    "id": 60,
+    "category": "growth",
+    "en": "It is enough to be a little more present than yesterday.",
+    "mm": "မနေ့ကထက် အခုအခိုက်အတန့်ကို နည်းနည်းပိုသတိထားနိုင်ရင်ပဲ လုံလောက်ပါတယ်။"
+  },
+  {
+    "id": 61,
+    "category": "rest",
+    "en": "Rest is not a prize for exhaustion; it is part of living.",
+    "mm": "အနားယူခြင်းဟာ ပင်ပန်းလွန်းမှရတဲ့ဆုမဟုတ်ဘဲ နေထိုင်မှုရဲ့ အစိတ်အပိုင်းပါ။"
+  },
+  {
+    "id": 62,
+    "category": "rest",
+    "en": "Your body and mind deserve pauses before they ask loudly.",
+    "mm": "ကိုယ်နဲ့စိတ်က အလွန်ပင်ပန်းမှ မဟုတ်ဘဲ အနားယူခွင့်ရသင့်ပါတယ်။"
+  },
+  {
+    "id": 63,
+    "category": "rest",
+    "en": "Let the evening be softer than the day.",
+    "mm": "ညနေခင်းကို နေ့လယ်ထက် ပိုနူးညံ့စွာ ဖြတ်သန်းပါ။"
+  },
+  {
+    "id": 64,
+    "category": "rest",
+    "en": "There is no shame in needing more time to recover.",
+    "mm": "ပြန်အားပြည့်ဖို့ အချိန်ပိုလိုတာ ရှက်စရာမဟုတ်ပါဘူး။"
+  },
+  {
+    "id": 65,
+    "category": "rest",
+    "en": "A slower evening may lead to a kinder morning.",
+    "mm": "ဖြည်းဖြည်းကုန်ဆုံးတဲ့ ညနေခင်းက ပိုနူးညံ့တဲ့ မနက်ခင်းဆီ ဦးတည်နိုင်ပါတယ်။"
+  },
+  {
+    "id": 66,
+    "category": "rest",
+    "en": "The world can wait while you take one deep breath.",
+    "mm": "အသက်ရှူသံ နက်နက်တစ်ချက် ယူနေစဉ် ကမ္ဘာကြီးက စောင့်နိုင်ပါတယ်။"
+  },
+  {
+    "id": 67,
+    "category": "rest",
+    "en": "Give yourself permission to have an unfinished day.",
+    "mm": "မပြီးဆုံးသေးတဲ့နေ့တစ်နေ့ကိုလည်း လက်ခံခွင့်ပေးပါ။"
+  },
+  {
+    "id": 68,
+    "category": "rest",
+    "en": "Your quiet hours are not wasted hours.",
+    "mm": "တိတ်ဆိတ်စွာ ကုန်ဆုံးခဲ့တဲ့ နာရီတွေဟာ အလဟဿ မဟုတ်ပါဘူး။"
+  },
+  {
+    "id": 69,
+    "category": "rest",
+    "en": "Sleep can be an act of care, not an escape.",
+    "mm": "အိပ်စက်ခြင်းက ထွက်ပြေးခြင်းမဟုတ်ဘဲ ကိုယ့်ကိုယ်ကို ဂရုစိုက်ခြင်း ဖြစ်နိုင်ပါတယ်။"
+  },
+  {
+    "id": 70,
+    "category": "rest",
+    "en": "Not every moment needs to become an achievement.",
+    "mm": "အချိန်တိုင်းကို အောင်မြင်မှုတစ်ခုဖြစ်အောင် ပြောင်းဖို့ မလိုပါဘူး။"
+  },
+  {
+    "id": 71,
+    "category": "rest",
+    "en": "Let your shoulders soften and your thoughts pass.",
+    "mm": "ပခုံးတွေကို ဖြေလျှော့ပြီး အတွေးတွေကို ဖြတ်သန်းခွင့်ပေးပါ။"
+  },
+  {
+    "id": 72,
+    "category": "rest",
+    "en": "Tonight, choose enough over more.",
+    "mm": "ဒီညမှာ ပိုများဖို့ထက် လုံလောက်မှုကို ရွေးပါ။"
+  },
+  {
+    "id": 73,
+    "category": "rest",
+    "en": "A gentle ending is a beautiful way to close a day.",
+    "mm": "နူးညံ့တဲ့ အဆုံးသတ်က တစ်နေ့တာကို လှလှပပ ပိတ်သိမ်းတဲ့ နည်းလမ်းပါ။"
+  },
+  {
+    "id": 74,
+    "category": "rest",
+    "en": "You can care deeply and still take time away.",
+    "mm": "နက်နက်ရှိုင်းရှိုင်း ဂရုစိုက်ရင်းနဲ့လည်း ခဏခွာနားနိုင်ပါတယ်။"
+  },
+  {
+    "id": 75,
+    "category": "rest",
+    "en": "Rest helps the next step feel possible.",
+    "mm": "အနားယူခြင်းက နောက်ခြေလှမ်းကို လှမ်းနိုင်သလို ခံစားစေပါတယ်။"
+  },
+  {
+    "id": 76,
+    "category": "rest",
+    "en": "Your breathing does not need a deadline.",
+    "mm": "သင့်အသက်ရှူသံမှာ Deadline မလိုပါဘူး။"
+  },
+  {
+    "id": 77,
+    "category": "rest",
+    "en": "A peaceful night begins with less demand on yourself.",
+    "mm": "ငြိမ်းချမ်းတဲ့ညဟာ ကိုယ့်ကိုယ်ကို တောင်းဆိုမှုလျှော့ရာက စတင်ပါတယ်။"
+  },
+  {
+    "id": 78,
+    "category": "rest",
+    "en": "It is okay to pause even when the list is not finished.",
+    "mm": "လုပ်စရာတွေ မပြီးသေးလည်း ခဏနားလို့ရပါတယ်။"
+  },
+  {
+    "id": 79,
+    "category": "rest",
+    "en": "Give the day back to the evening, little by little.",
+    "mm": "တစ်နေ့တာကိစ္စတွေကို ညနေခင်းမှာ ဖြည်းဖြည်းချင်း ချထားပါ။"
+  },
+  {
+    "id": 80,
+    "category": "rest",
+    "en": "There is kindness in closing your eyes for a moment.",
+    "mm": "ခဏမျက်စိမှိတ်လိုက်ခြင်းမှာတောင် ကြင်နာမှုရှိပါတယ်။"
+  },
+  {
+    "id": 81,
+    "category": "gratitude",
+    "en": "Notice one good thing before counting what is missing.",
+    "mm": "မရှိသေးတဲ့အရာတွေ မရေတွက်ခင် ရှိနေတဲ့ကောင်းမှုတစ်ခုကို သတိထားပါ။"
+  },
+  {
+    "id": 82,
+    "category": "gratitude",
+    "en": "A grateful heart can begin with ordinary things.",
+    "mm": "ကျေးဇူးတင်တတ်တဲ့စိတ်ဟာ သာမန်အရာလေးတွေကနေ စတင်နိုင်ပါတယ်။"
+  },
+  {
+    "id": 83,
+    "category": "gratitude",
+    "en": "Let small joys have a full place in your day.",
+    "mm": "ပျော်ရွှင်မှုငယ်လေးတွေကို သင့်တစ်နေ့တာမှာ နေရာအပြည့်ပေးပါ။"
+  },
+  {
+    "id": 84,
+    "category": "gratitude",
+    "en": "You do not need a perfect life to cherish a good moment.",
+    "mm": "ကောင်းတဲ့အခိုက်အတန့်ကို တန်ဖိုးထားဖို့ ပြီးပြည့်စုံတဲ့ဘဝ မလိုပါဘူး။"
+  },
+  {
+    "id": 85,
+    "category": "gratitude",
+    "en": "Your next breath is another chance to begin kindly.",
+    "mm": "နောက်အသက်ရှူသံက ကြင်နာစွာ ပြန်စဖို့ အခွင့်အရေးတစ်ခုပါ။"
+  },
+  {
+    "id": 86,
+    "category": "gratitude",
+    "en": "Thank yourself for choosing to be here today.",
+    "mm": "ဒီနေ့ ဒီနေရာမှာ ရှိနေဖို့ ရွေးခဲ့တဲ့ ကိုယ့်ကိုယ်ကို ကျေးဇူးတင်ပါ။"
+  },
+  {
+    "id": 87,
+    "category": "gratitude",
+    "en": "The light of a day often lives in its smallest corners.",
+    "mm": "တစ်နေ့တာရဲ့ အလင်းရောင်က သေးငယ်တဲ့ထောင့်ကွက်တွေမှာ ရှိတတ်ပါတယ်။"
+  },
+  {
+    "id": 88,
+    "category": "gratitude",
+    "en": "Even an ordinary morning is worth greeting gently.",
+    "mm": "သာမန်မနက်ခင်းတစ်ခုကိုတောင် နူးညံ့စွာ ကြိုဆိုဖို့ တန်ဖိုးရှိပါတယ်။"
+  },
+  {
+    "id": 89,
+    "category": "gratitude",
+    "en": "Remember the hands that helped you reach this moment.",
+    "mm": "ဒီအခိုက်အတန့်ထိ ရောက်လာအောင် ကူညီခဲ့သူတွေကို သတိရပါ။"
+  },
+  {
+    "id": 90,
+    "category": "gratitude",
+    "en": "You can be grateful without pretending everything is easy.",
+    "mm": "အရာအားလုံး လွယ်နေသလို ဟန်ဆောင်စရာမလိုဘဲ ကျေးဇူးတင်နိုင်ပါတယ်။"
+  },
+  {
+    "id": 91,
+    "category": "gratitude",
+    "en": "Let today's kindness become tomorrow's memory.",
+    "mm": "ဒီနေ့ရဲ့ ကြင်နာမှုကို မနက်ဖြန်ရဲ့ အမှတ်တရဖြစ်စေပါ။"
+  },
+  {
+    "id": 92,
+    "category": "gratitude",
+    "en": "Joy does not have to be large to be enough.",
+    "mm": "ပျော်ရွှင်မှုဟာ လုံလောက်ဖို့ ကြီးမားနေစရာ မလိုပါဘူး။"
+  },
+  {
+    "id": 93,
+    "category": "gratitude",
+    "en": "Take time to notice what quietly supports you.",
+    "mm": "သင့်ကို တိတ်တဆိတ် ထောက်ပံ့ပေးနေတဲ့အရာတွေကို သတိထားဖို့ အချိန်ပေးပါ။"
+  },
+  {
+    "id": 94,
+    "category": "gratitude",
+    "en": "An open heart notices beauty in simple places.",
+    "mm": "ဖွင့်ထားတဲ့စိတ်ဟာ ရိုးရှင်းတဲ့နေရာတွေမှာ အလှကို တွေ့တတ်ပါတယ်။"
+  },
+  {
+    "id": 95,
+    "category": "gratitude",
+    "en": "A smile for the present is a gift to yourself.",
+    "mm": "လက်ရှိအခိုက်အတန့်အတွက် အပြုံးလေးက ကိုယ့်ကိုယ်ကို ပေးတဲ့လက်ဆောင်ပါ။"
+  },
+  {
+    "id": 96,
+    "category": "gratitude",
+    "en": "Cherish the pause that brought you back to yourself.",
+    "mm": "ကိုယ့်အတွင်းစိတ်ဆီ ပြန်ပို့ပေးခဲ့တဲ့ ခဏတာနားချိန်ကို တန်ဖိုးထားပါ။"
+  },
+  {
+    "id": 97,
+    "category": "gratitude",
+    "en": "Gratitude makes space for what is already good.",
+    "mm": "ကျေးဇူးတင်ခြင်းက ရှိပြီးသားကောင်းမှုတွေအတွက် နေရာပေးပါတယ်။"
+  },
+  {
+    "id": 98,
+    "category": "gratitude",
+    "en": "One peaceful minute is something worth celebrating.",
+    "mm": "ငြိမ်းချမ်းတဲ့ တစ်မိနစ်ဟာလည်း ဂုဏ်ပြုထိုက်ပါတယ်။"
+  },
+  {
+    "id": 99,
+    "category": "gratitude",
+    "en": "Let thanks be quiet, sincere, and enough.",
+    "mm": "ကျေးဇူးတင်မှုကို တိတ်ဆိတ်ရိုးသားပြီး လုံလောက်စေပါ။"
+  },
+  {
+    "id": 100,
+    "category": "gratitude",
+    "en": "You have something to honor simply by beginning.",
+    "mm": "စတင်နိုင်ခဲ့တာကိုပဲ ဂုဏ်ယူထိုက်တဲ့အရာအဖြစ် သတ်မှတ်နိုင်ပါတယ်။"
+  }
+]

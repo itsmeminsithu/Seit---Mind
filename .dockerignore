@@ -1,0 +1,10 @@
+.git
+**/node_modules
+**/.next
+**/__pycache__
+**/.pytest_cache
+**/.venv
+**/.gradle
+**/build
+**/.DS_Store
+*.zip

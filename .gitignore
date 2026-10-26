@@ -1,0 +1,14 @@
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.DS_Store
+**/node_modules/
+**/.next/
+**/.env.local
+**/build/
+**/.gradle/
+**/.idea/
+**/local.properties
+# Keep original demo MP3s in version control; audio/ is part of the runnable sample.
+*.keystore
+*.jks
