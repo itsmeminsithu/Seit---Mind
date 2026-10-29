@@ -19,8 +19,9 @@ Live view (no Codespaces): https://itsmeminsithu.github.io/Seit---Mind/
 ![Share Card](docs/previews/07-share-card-sunset.png)
 ![Share Card](docs/previews/08-share-card-forest.png)
 
-## What changed
-Previous versions mixed user profile form, reminders, meditation library, player, rewards, and developer info on one long page. Version **0.8 separates these into task-focused screens** on both Android and Web:
+## What changed in 0.8
+
+Earlier versions put the profile form, reminders, meditation library, player, rewards and developer info on one long page. In 0.8 each of those has its own screen, on Android and on Web:
 
 | Screen | What users see |
 |---|---|
@@ -33,11 +34,11 @@ Previous versions mixed user profile form, reminders, meditation library, player
 | About | Original developer photo + name + website; no GitHub repository displayed |
 | Completion | Mood, quote, stars, share/save square/story PNG |
 
-Responsive navigation: desktop header + mobile bottom tabs. Android uses Compose NavigationBar. Original user photo was preserved in the **About** section only and is never shown on the Share Card.
+Navigation adapts: desktop header, mobile bottom tabs. Android uses Compose NavigationBar. The user's own photo stays in the **About** section only. It is never shown on the Share Card.
 
-## Mac quick start (Docker)
+## Run it on a Mac (Docker)
 
-The default host port is **3100** to avoid conflicting with your other app at 3000.
+The default host port is **3100**, so it does not clash with your other app at 3000.
 
 If v0.7 is already running on port 3100, open a Terminal:
 
@@ -53,11 +54,11 @@ cd ~/Downloads/Seit-Mind-v0.8
 docker compose up --build
 ```
 
-Open **http://localhost:3100**. Inside Docker, Next.js still listens on port 3000. FastAPI listens on container port 8000; browser accesses it through the same-origin `/api` proxy. Do not change the right-hand side of `"3100:3000"`.
+Open **http://localhost:3100**. Inside Docker, Next.js still listens on port 3000. FastAPI listens on container port 8000; the browser reaches it through the same-origin `/api` proxy. Do not change the right-hand side of `"3100:3000"`.
 
-Rebuilding or changing project folders will **not** erase browser localStorage on the same `http://localhost:3100` origin. To inspect containers from another Terminal run `docker compose ps`.
+Rebuilding or moving project folders will **not** erase browser localStorage on the same `http://localhost:3100` origin. To inspect containers from another Terminal run `docker compose ps`.
 
-## Run without Docker
+## Run it without Docker
 
 ```sh
 # Terminal 1, from backend/
@@ -74,21 +75,21 @@ npm install
 npm run dev -- -p 3100
 ```
 
-## Android Native
+## Android
 
-Open `android/` in Android Studio with appropriate Android SDK 35 + JDK 17. Native Kotlin + Jetpack Compose project requires real Gradle build verification. The backend default is emulator `http://10.0.2.2:8000`. Physical Android requires `mindApiBaseUrl` set in `android/gradle.properties` to your computer's LAN API address, or public HTTPS API. Android Player/Settings/Completed screens are isolated; background service lifecycle remains in `MeditationService.kt`.
+Open `android/` in Android Studio. You need Android SDK 35 and JDK 17. This is a native Kotlin + Jetpack Compose project, and it still needs a real Gradle build check. The backend default is the emulator address `http://10.0.2.2:8000`. On a physical Android phone, set `mindApiBaseUrl` in `android/gradle.properties` to your computer's LAN API address, or to a public HTTPS API. The Player, Settings and Completed screens are separate; the background service lifecycle is in `MeditationService.kt`.
 
-## Features preserved
+## What is in it
 
 - 12 synthesized demo MP3s, each > 12 minutes; 10/20/30 or custom 1–180-minute duration.
-- 80% minimum completed playback to earn stars; 60 stars maximum per day; local streaks, supportive messaging.
+- At least 80% of a track has to play to earn stars; 60 stars maximum per day; local streaks, supportive messaging.
 - Guided breathing, optional 30-second audio fade, Android foreground playback service.
 - 100 original English/Myanmar quotes; mood-based after meditation.
 - Square 1080×1080 or Story 1080×1920 PNG export/share; four themes, optional privacy fields.
 - Local user profile and photo, daily reminders (web notifications require browser/page open), About developer.
 - Pyidaungsu Unicode font is bundled by user request; verify font redistribution permissions before public release.
 
-## Tests / Limitations
+## Tests and limits
 
 ```sh
 python -m pytest backend/test_api.py tests/ -q
